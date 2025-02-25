@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto p5</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <div id="fundo">
+            <div id="semifundo">
+                <header>
+                    <h1>Encontre o membro da Phantom Thieves</h1>
+                </header>
+                <div class="caixaregras">
+                    <button id="botao1">Clique aqui  para iniciar</button>
+                    <div id="conteudo">
+                        <h2>Regras:</h2>
+                        <ul>
+                            <li>O objetivo do jogo é encontrar o membro da Phantom Thieves.</li>
+                            <li>A cor do círculo muda conforme a proximidade do mouse.</li>
+                            <li>Quando o mouse estiver perto o suficiente, você verá uma mensagem</li>
+                            <li id="mensagemsecreta">"Meu tenis tem 33cm" by Oyamaguti</li>
+                            <button id="botao2">Começar</button>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="jogo"></div>
+
+    </main>
+
+    <audio src="fundo.mp3"  controls autoplay loop;></audio>
+
+    <footer>
+        <p>Projeto desenvolvido por <a href="https://github.com/NathanEABev/" target="_blank" rel="external">Nathan Bevilaqua</a></p>
+    </footer>
+
+    <script src="sketch.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
